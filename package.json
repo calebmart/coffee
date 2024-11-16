@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "gh-pages": "^6.2.0",
+    "homepage": "https://calebmart.github.io/coffee"
+  },
+    
+  "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d dist"
+  }
+}
